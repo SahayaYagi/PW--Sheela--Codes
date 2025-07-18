@@ -5,7 +5,7 @@ import { test, expect } from '@playwright/test';
 // dotenv.config();
   
 
-test.only('launch google', async ({ page }) => {
+test('launch google', async ({ page }) => {
     await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
  //await page.waitForTimeout (30000)
   

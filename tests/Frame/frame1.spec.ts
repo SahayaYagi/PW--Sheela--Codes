@@ -3,7 +3,7 @@
 
 import { test, expect } from '@playwright/test';
 
-test.only('launch google', async ({ page }) => {
+test('launch google', async ({ page }) => {
 
   await page.goto('https://demo.automationtesting.in/Frames.html')
 

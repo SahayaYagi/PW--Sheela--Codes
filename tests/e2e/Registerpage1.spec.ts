@@ -3,7 +3,7 @@ import { Registerpage } from '../../pages/registerpage';
 import * as dotenv from 'dotenv' 
 dotenv.config();
 
-test.only('launch google', async ({ page }) => {
+test('launch google', async ({ page }) => {
     await page.goto('https://tutorialsninja.com/demo/index.php?route=account/register')
 
         const password =process.env.password;

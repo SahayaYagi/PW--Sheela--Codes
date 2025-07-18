@@ -4,7 +4,7 @@
 import { test, expect } from '@playwright/test';
 import { moveCursor } from 'readline';
 
-test.only('launch google', async ({ page }) => {
+test('launch google', async ({ page }) => {
 
       await page.goto('https://demo.automationtesting.in/Alerts.html')
 

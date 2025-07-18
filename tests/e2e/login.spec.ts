@@ -2,7 +2,7 @@
 import { test, expect } from '@playwright/test';
 import { LoginPage } from '../../pages/loginpage';
 import { Registerpage } from '../../pages/registerpage';
-test.only('launch google', async ({ page }) => {
+test('launch google', async ({ page }) => {
     await page.goto('https://tutorialsninja.com/demo/index.php?route=account/login')
 
  await page.waitForTimeout (1000)

@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-test.only('launch google', async ({ page }) => {
+test('launch google', async ({ page }) => {
     await page.goto('https://tutorialsninja.com/demo/index.php?route=account/login')
 
         await page.locator("(//input[@type='text'])[1]").fill('Phone')
