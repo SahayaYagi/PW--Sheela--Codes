@@ -47,14 +47,11 @@ await registerPage.clicksubmit1();
 // await page.locator("(//input[@type='checkbox'])").click();
 
 await page.waitForTimeout(1000)
-//await page.locator("(//input[@type='submit'])").click();
+
 const timestamp=Date.now()
 await page.screenshot ({path: `screenshots/RegisterPage1-${timestamp}.png`})
 
 
 
-
-//const timestamp=Date.now()
-   //await page.screenshot ({path: `screenshots/page-${timestamp}.png`})
 })
  ;

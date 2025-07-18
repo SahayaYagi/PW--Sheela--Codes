@@ -28,5 +28,6 @@ const homePage = new HomePage(page)
 
  const timestamp=Date.now()
 await page.screenshot ({path: `screenshots/login-${timestamp}.png`})
+
 })
 ;
